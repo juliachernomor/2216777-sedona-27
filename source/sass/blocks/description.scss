@@ -1,0 +1,48 @@
+.description {
+    position: relative;
+    min-height: 205px;
+
+    
+    &::after {
+        position: absolute;
+        content:"";
+        background-image: url(../../img/svg/description-corner.svg);
+        background-repeat: no-repeat;
+        background-size: 768px 37px;
+        background-position: center;
+        bottom: -36px;
+        left: 0;
+        right: 0;
+        min-height:37px;
+        z-index: 6666;
+    }
+}
+
+.description__text {
+    padding-top: 32px;
+    width: 284px;
+    margin: 0 auto;
+    font-family:"PTSans", "Arial", serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.description__sedona {
+    display: block;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color:#000000;
+    margin-bottom: 35px;
+}
+
+.description__sedona-reason {
+    display: block;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color:#333333;
+    margin-bottom: 16px;
+}

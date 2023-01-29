@@ -1,0 +1,35 @@
+.banner {
+    position: relative;
+    min-width: 320px;
+    min-height: 389px;
+    margin: 0 auto;
+    background-image: url("../../img/backgroundindex-mobile.jpg");
+    background-size: 901px 389px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    &::after {
+        position: absolute;
+        content:"";
+        background-image: url(../../img/svg/banner-corner.svg);
+        background-size: 1201px 57px;
+        background-repeat: no-repeat;
+        background-position: center;
+        top: 333px;
+        left: 0;
+        right: 0;
+        min-height:57px;
+    }
+  
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/backgroundindex-mobile@2x.jpg");
+    }
+  }
+
+  .banner__landscape {
+    display: block;
+    width: 282px;
+    height: 214px;
+    padding-top: 90px;
+    margin: 0 auto;
+  }
