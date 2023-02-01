@@ -9,3 +9,10 @@
     height: 96px;
     z-index: 1;
 }
+
+
+@media (min-width: $tablet-width) {
+    .logo {
+        z-index: 5555555555;
+    }
+}

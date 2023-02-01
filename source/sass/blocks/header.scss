@@ -5,3 +5,10 @@
     min-height: 56px;
     margin: 0 auto;
 }
+
+@media (min-width: $tablet-width) {
+  .header {
+    min-width: 768px;
+    min-height: 56px;
+  }
+}

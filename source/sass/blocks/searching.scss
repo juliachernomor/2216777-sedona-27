@@ -1,0 +1,35 @@
+.searching {
+    min-width: 320px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.searching__question {
+    display: block;
+    min-width: 262px;
+    padding: 38px 29px 0 29px;
+    margin: 0 auto 32px auto;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.searching__text {
+    display: block;
+    min-width: 262px;
+    padding: 0 29px;
+    margin: 0 auto 32px auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.searching__button {
+    margin: 0 20px 49px 20px;
+}
+
+.searching__question--catalog {
+    padding: 18px 27px 0 27px;
+}

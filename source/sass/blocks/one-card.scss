@@ -1,0 +1,38 @@
+.one-card {
+    display: grid;
+    grid-template-columns: 1f;
+    padding: 25px 20px;
+}
+
+.one-card__image {
+    min-width: 280px;
+    min-height: 280px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.one-card__pic {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+.one-card__definition {
+    min-width: 280px;
+    font-family: "PTSans", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.one-card__title {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.one-card__author {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}

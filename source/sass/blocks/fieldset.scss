@@ -1,0 +1,32 @@
+.fieldset {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px 39px 20px;
+    margin: 0 auto;
+    border: none;
+}
+
+.fieldset--radio {
+    padding-bottom: 24px;
+}
+
+.fieldset--radio {
+    padding-bottom: 24px;
+}
+
+.fieldset__title {
+    min-width: 280px;
+    margin: 0 auto 20px auto;
+    font-family: "PTSans", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+
+.fieldset__title--radio {
+    padding-top: 20px;
+}

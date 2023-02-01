@@ -1,15 +1,26 @@
 .nav {
-    position: relative;
-    min-height: 56px;
-    width: 100%;
-    background-color: #ffffff;
+  position: relative;
+  min-height: 56px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+@media (min-width: $tablet-width) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    min-width: 768px;
   }
-  
+}
+
+
 .nav__list {
     margin: 0;
 }
 
-.nav__toggle {
+@media (max-width: $mobile-width-only) {
+  .nav__toggle {
     position: absolute;
     top:0;
     left: 0;
@@ -27,15 +38,23 @@
     background-color: #81b3d2;
     z-index: 5555555;
     cursor: pointer;
-}
+  }
 
 
-.nav--closed .nav__toggle {
+  .nav--closed .nav__toggle {
     background-image: url(../../img/svg/toggle.svg);
     background-repeat: no-repeat;
     background-size: 23px 22px;
     background-position: 16.5px 17px;
     background-color: #ffffff;
+  }
+}
+
+
+@media (min-width: $tablet-width) {
+  .nav__toggle {
+    display: none;
+  }
 }
 
 .nav__wrapper {
@@ -49,6 +68,13 @@
   background-color: #ffffff;
 }
   
+@media (min-width: $tablet-width) {
+  .nav__wrapper {
+    position: static;
+  }
+}
+
+@media (max-width: $mobile-width-only) {
   .nav--closed .site-list__item {
     display: none;
   
@@ -57,20 +83,19 @@
     }
   }
 
-.nav--nojs .nav__toggle {
+  .nav--nojs .nav__toggle {
     display: none;
-}
+  }
   
-.nav--nojs .nav__wrapper {
-  position: static;
-  display: block;
-  margin: 0 auto;
-}
+  .nav--nojs .nav__wrapper {
+    position: static;
+    display: block;
+    margin: 0 auto;
+  }
   
-.nav--nojs .site-list__item {
-  display: block;
-  margin: 0 auto;
-  background-color: #81b3d2;
+  .nav--nojs .site-list__item {
+    display: block;
+    margin: 0 auto;
+    background-color: #81b3d2;
+  }
 }
-
-  

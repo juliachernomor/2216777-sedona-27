@@ -1,0 +1,37 @@
+.field-text {
+    min-width: 320px;
+    padding: 0 20px;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+}
+
+.field-text__title {
+    min-width: 280px;
+    margin: 0 auto 20px auto;
+    font-family: "PTSans", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+
+.field-text__input {
+    width: 100%;
+    min-width: 280px;
+    min-height: 150px;
+    padding: 16px 16px 16px 16px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"PTSans", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.3);
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+  }

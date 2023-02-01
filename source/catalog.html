@@ -52,26 +52,27 @@
       </nav>
     </header>
     <main class="page__catalog catalog">
-      <section class="catalog__banner banner">
+      <section class="catalog__banner2 banner2">
         <h2 class="visually-hidden">Баннер</h2>
-        <div class="banner__catalog">
+        <div class="banner2__catalog">
           <img
-            class="banner__catalog-text"
+            class="banner2__picture-text"
             width="229"
             height="39"
             alt="Текст баннера"
             src="img/svg/sedona-text.svg">
         </div>
-        <div class="banner__catalog-corner"></div>
       </section>
-      <section class="catalog__description description">
+      <section class="catalog__description description description--catalog">
         <h2 class="visually-hidden">
           Фото и видео города и окрестностей Седоны от наших клиентов
         </h2>
-        <p class="description__catalog">Фото и видео</p>
-        <p class="description__catalog-taxt">
+        <p class="description__text description__text--catalog"><span class="description__title">
+          Фото и видео
+        </span><span class="description__definition">
           Не можете решиться на путешествие из-за курса? Фотографии помогут вам
           забыть о политике и экономике.
+        </span>
         </p>
       </section>
       <section class="catalog__card card">
@@ -89,8 +90,10 @@
                   alt="Закат над дорогой.">
               </picture>
             </a>
+            <div class="one-card__definition">
             <h3 class="one-card__title">Неродные просторы</h3>
             <p class="one-card__author">Автор фото: Борис</p>
+            </div>
             <p class="one-card__like like">
               <span class="like__icon"
                 ><img
@@ -115,8 +118,10 @@
                   alt="Растение на фоне гор.">
               </picture>
             </a>
+            <div class="one-card__definition">
             <h3 class="one-card__title">Местная растительность</h3>
             <p class="one-card__author">Автор фото: Сергей</p>
+            </div>
             <p class="one-card__like like">
               <span class="like__icon"
                 ><img
@@ -141,8 +146,10 @@
                   alt="Дорога по лесному массиву">
               </picture>
             </a>
+            <div class="one-card__definition">
             <h3 class="one-card__title">Дорога на север</h3>
             <p class="one-card__author">Автор фото: Петр</p>
+            </div>
             <p class="one-card__like like">
               <span class="like__icon"
                 ><img
@@ -167,8 +174,10 @@
                   alt="Дорога по лесному массиву">
               </picture>
             </a>
+            <div class="one-card__definition">
             <h3 class="one-card__title">Мост дьявола</h3>
             <p class="one-card__author">Автор фото: Антон</p>
+            </div>
             <p class="one-card__like like">
               <span class="like__icon"
                 ><img
@@ -182,29 +191,26 @@
           </li>
         </ul>
       </section>
-      <section class="catalog__interest interest">
+      <section class="catalog__searching searching">
         <h2 class="visually-hidden">Поиск гостиницы</h2>
-        <p class="interest__question">Заинтересовались?</p>
-        <p class="interest__text">
+        <p class="searching__question searching__question--catalog">Заинтересовались?</p>
+        <p class="searching__text">
           Укажите предполагаемые даты поездки,и мы покажем вам лучшие
           предложения гостиниц в Седоне
         </p>
-        <a href="#" class="button button-all">Найти гостиницу</a>
       </section>
       <section class="catalog__video video">
         <h2 class="visually-hidden">Седона на видео</h2>
-        <a class="video__link" href="#">
-          <picture>
-            <img
-              class="video__static"
-              src="img/video-mobile.jpg"
+        <div class="video__wrapper">
+        <button class="video__button"><span class="visually-hidden">Воспроизвести</span></button>
+            <video
+              class="video__container"
               width="280"
               height="177"
-              srcset="img/video-mobile@2x.jpg"
+              poster="img/video@2x.jpg"
               loading="lazy"
-              alt="Мы на карте города.">
-          </picture>
-        </a>
+              alt="Мы на карте города.">Видео не поддерживается вашим браузером</video>
+            </div>
       </section>
     </main>
     <footer class="page__footer footer">
@@ -251,10 +257,11 @@
         class="footer__copyright copyright"
         href="https://vk.com/htmlacademy"
         aria-label="Сайт HTML
-      Academy"
-        ><span class="academy">разработано</span>
-        <img width="27" height="34" alt="" src="img/svg/htmlacademy.svg">
+          Academy"
+        ><span class="copyright__academy">разработано</span>
+        <img class="copyright__academylogo" width="27" height="34" alt="" src="img/svg/htmlacademy.svg">
       </a>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
