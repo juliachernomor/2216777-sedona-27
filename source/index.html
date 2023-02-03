@@ -164,12 +164,14 @@
         <h2 class="visually-hidden">Седона на карте</h2>
         <a class="map__link" href="#">
           <picture>
+            <source type="image/jpg" media="(min-width:768px)"
+            srcset="img/map-desktop.jpg 1x, img/map-desktop@2x.jpg 2x" width="768" height="350">
             <img
               class="map__static"
-              src="img/map-mobile.jpg"
+              src="img/map-tablet.jpg"
               width="320"
               height="350"
-              srcset="img/map-mobile@2x.jpg"
+              srcset="img/map-tablet@2x.jpg"
               loading="lazy"
               alt="Мы на карте города.">
           </picture>

@@ -1,0 +1,62 @@
+.banner2 {
+    display: block;
+    position: relative;
+    min-width: 320px;
+    min-height: 158px;
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("../../img/backgroundcatalog-mobile.jpg");
+    background-size: 902px 214px;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+
+    &::after {
+      position: absolute;
+      content:"";
+      background-image: url(../../img/svg/banner-corner.svg);
+      background-size: 1201px 57px;
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 103px;
+      left: 0;
+      right: 0;
+      min-height:57px;
+  }
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../../img/backgroundcatalog-mobile@2x.jpg");
+  }
+}
+
+.banner2__picture-text {
+  display: block;
+  padding-top:52px;
+  margin: 0 auto;
+}
+
+
+@media (min-width: $tablet-width) {
+    .banner2 {
+        min-width: 768px;
+        min-height: 290px;
+        background-image: url("../../img/backgroundcatalog-tablet.jpg");
+        background-size: 1200px 518px;
+
+        &::after {
+            top: 233px;
+        }
+    
+
+        @media (min-resolution: 2dppx) {
+            background-image: url("../../img/backgroundcatalog-tablet@2x.jpg");
+        }
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .banner2__picture-text {
+        padding-top: 95px;
+        width: 457px;
+        height: 78px;
+    }
+}

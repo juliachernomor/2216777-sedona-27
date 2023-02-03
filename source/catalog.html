@@ -67,9 +67,9 @@
         <h2 class="visually-hidden">
           Фото и видео города и окрестностей Седоны от наших клиентов
         </h2>
-        <p class="description__text description__text--catalog"><span class="description__title">
+        <p class="description__text description__text--catalog"><span class="description__title description__title--catalog">
           Фото и видео
-        </span><span class="description__definition">
+        </span><span class="description__definition description__definition--catalog">
           Не можете решиться на путешествие из-за курса? Фотографии помогут вам
           забыть о политике и экономике.
         </span>
@@ -77,13 +77,15 @@
       </section>
       <section class="catalog__card card">
         <ul class="card__list">
-          <li class="card__item one-card">
-            <a class="one-card__image" href="#">
+          <li class="card__item one-card one-card--1">
+            <a class="one-card__image one-card__image--1" href="#">
               <picture>
+                <source type="image/jpg" media="(min-width:768px)"
+            srcset="img/catalog1-desktop.jpg 1x, img/catalog1-desktop@2x.jpg 2x" width="648" height="400">
                 <img
-                  class="one-card__pic"
-                  src="img/catalog1-mobile.jpg"
-                  srcset="img/catalog1-mobile@2x.jpg 2x"
+                  class="one-card__pic one-card__1"
+                  src="img/catalog1-tablet.jpg"
+                  srcset="img/catalog1-tablet@2x.jpg 2x"
                   width="280"
                   height="280"
                   loading="lazy"
@@ -105,13 +107,15 @@
               ><span class="like__count"></span>1350
             </p>
           </li>
-          <li class="card__item one-card">
-            <a class="one-card__image" href="#">
+          <li class="card__item one-card one-card--2">
+            <a class="one-card__image one-card__image--2" href="#">
               <picture>
+                <source type="image/jpg" media="(min-width:768px)"
+                srcset="img/catalog2-desktop.jpg 1x, img/catalog2-desktop@2x.jpg 2x" width="324" height="267">
                 <img
-                  class="one-card__pic"
-                  src="img/catalog2-mobile.jpg"
-                  srcset="img/catalog2-mobile@2x.jpg 2x"
+                  class="one-card__pic one-card__2"
+                  src="img/catalog2-tablet.jpg"
+                  srcset="img/catalog2-tablet@2x.jpg 2x"
                   width="280"
                   height="280"
                   loading="lazy"
@@ -133,13 +137,15 @@
               ><span class="like__count"></span>143
             </p>
           </li>
-          <li class="card__item one-card">
-            <a class="one-card__image" href="#">
+          <li class="card__item one-card one-card--3">
+            <a class="one-card__image one-card__image--2" href="#">
               <picture>
+                <source type="image/jpg" media="(min-width:768px)"
+                srcset="img/catalog3-desktop.jpg 1x, img/catalog3-desktop@2x.jpg 2x" width="324" height="267">
                 <img
-                  class="one-card__pic"
-                  src="img/catalog3-mobile.jpg"
-                  srcset="img/catalog3-mobile@2x.jpg 2x"
+                  class="one-card__pic one-card__2"
+                  src="img/catalog2-tablet.jpg"
+                  srcset="img/catalog3-tablet@2x.jpg 2x"
                   width="280"
                   height="280"
                   loading="lazy"
@@ -161,13 +167,15 @@
               ><span class="like__count"></span>96
             </p>
           </li>
-          <li class="card__item one-card">
-            <a class="one-card__image" href="#">
+          <li class="card__item one-card one-card--4">
+            <a class="one-card__image one-card__image--2" href="#">
               <picture>
+                <source type="image/jpg" media="(min-width:768px)"
+                srcset="img/catalog4-desktop.jpg 1x, img/catalog4-desktop@2x.jpg 2x" width="324" height="267">
                 <img
-                  class="one-card__pic"
-                  src="img/catalog4-mobile.jpg"
-                  srcset="img/catalog4-mobile@2x.jpg 2x"
+                  class="one-card__pic one-card__2"
+                  src="img/catalog4-tablet.jpg"
+                  srcset="img/catalog4-tablet@2x.jpg 2x"
                   width="280"
                   height="280"
                   loading="lazy"
@@ -193,10 +201,9 @@
       </section>
       <section class="catalog__searching searching">
         <h2 class="visually-hidden">Поиск гостиницы</h2>
-        <p class="searching__question searching__question--catalog">Заинтересовались?</p>
-        <p class="searching__text">
-          Укажите предполагаемые даты поездки,и мы покажем вам лучшие
-          предложения гостиниц в Седоне
+        <p class="searching__question searching__question--catalog">Все еще сомневаетесь?</p>
+        <p class="searching__text searching__text--catalog">
+          Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!
         </p>
       </section>
       <section class="catalog__video video">
@@ -213,7 +220,7 @@
             </div>
       </section>
     </main>
-    <footer class="page__footer footer">
+    <footer class="page__footer footer footer--catalog">
       <a class="footer__logo logotype" href="#">
         <img
           class="logotype__text"

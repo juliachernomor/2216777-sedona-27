@@ -7,3 +7,19 @@
     padding: 0;
     list-style-type: none;
 }
+
+@media (min-width: $tablet-width) {
+    .card {
+        min-width: 648px;
+        padding: 0 60px;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .card__list {
+        min-width: 648px;
+        margin: 0 auto 29px auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

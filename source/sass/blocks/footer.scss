@@ -5,11 +5,38 @@
     margin: 0 auto;
 }
 
+@media (min-width: $tablet-width) {
+    .footer {
+        display: flex;
+        min-width: 653px;
+        min-height: 48px;
+        padding: 36px 70px 36px 45px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    .footer--catalog,
+    .footer--form {
+        padding: 36px 60px 36px 45px;
+    }
+
+}
+
 .footer__logo {
     display: block;
     margin: 0 auto 33.5px auto;
     padding: 38.5px 77px 0 77px;
     text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+    .footer__logo {
+        margin: 0 95px 0 0;
+        padding: 0;
+    }
 }
 
 .footer__socials {
@@ -18,8 +45,22 @@
     padding: 0 77px;
 }
 
+@media (min-width: $tablet-width) {
+    .footer__socials {
+        margin: 0 102px 0 0;
+        padding: 0;
+    }
+}
+
 .footer__copyright {
     margin: 0 auto;
     margin-bottom: 40px;
     padding: 0 77px;
+}
+
+@media (min-width: $tablet-width) {
+    .footer__copyright {
+        margin: 0;
+        padding: 0;
+    }
 }

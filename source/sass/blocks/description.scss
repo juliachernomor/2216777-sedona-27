@@ -80,11 +80,28 @@
     &::after {
         display: none;
     }
-}
+} 
 
 .description__text--catalog {
     padding: 37px 20px 9px 20px;
     min-width: 280px;
+}
+
+@media (min-width: $tablet-width) {
+    .description__text--catalog {
+        padding: 65px 155px 67px 155px;
+        min-width: 458px;
+    }
+
+    .description__title--catalog {
+        font-size: 30px;
+    }
+
+    .description__definition--catalog {
+        margin: 0;
+        font-size: 14px;
+        line-height: 24px;
+    }
 }
 
 .description--form {
@@ -96,4 +113,21 @@
 .description__text--form {
     padding: 36px 20px 28px 20px;
     min-width: 280px;
+}
+
+@media (min-width: $tablet-width) {
+    .description__text--form {
+        padding: 64px 166.5px 102px 166.5px;
+        min-width: 435px;
+    }
+
+    .description__title--form {
+        font-size: 30px;
+    }
+
+    .description__definition--form {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0;
+    }
 }

@@ -32,6 +32,13 @@
     cursor: pointer;
   }
 
+  @media (min-width: $tablet-width) {
+    .field__input {
+      min-width: 280px;
+      box-sizing: border-box;
+    }
+  }
+
   .field__input::placeholder {
     color: #000000;
     font-family:"PTSans", "Arial", sans-serif;

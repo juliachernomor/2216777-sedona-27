@@ -5,8 +5,25 @@
     margin: 0 auto;
 }
 
+@media (min-width: $tablet-width) {
+    .video {
+        padding: 0 60px 0 60px;
+        margin-bottom: 40px;
+        width: 768px;
+        height: 500px;
+    }
+}
+
 .video__wrapper {
     position: relative;
+}
+
+    
+@media (min-width: $tablet-width) {
+    .video__wrapper {
+        width: 648px;
+        height: 500px;
+    }
 }
 
 
@@ -44,3 +61,12 @@
     z-index: 0;  
 }
     
+@media (min-width: $tablet-width) {
+    .video__container {
+        width: 648px;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        object-fit: cover;
+    }
+}

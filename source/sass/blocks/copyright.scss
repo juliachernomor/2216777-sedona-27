@@ -20,3 +20,10 @@
 .copyright__academy {
     display: block;
 }
+
+@media (min-width: $tablet-width) {
+    .copyright {
+        min-width: 144px;
+        justify-content: end;
+    }
+}

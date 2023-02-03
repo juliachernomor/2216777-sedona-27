@@ -35,3 +35,12 @@
     border: none;
     cursor: pointer;
   }
+
+  @media (min-width: $tablet-width) {
+    .field-text {
+        min-width: 280px;
+        padding: 0px;
+        margin: 0 0 48px 0;
+    }
+}
+

@@ -22,3 +22,53 @@
     color: rgba(51, 51, 51, 0.6);
     text-transform: uppercase;
 }
+
+
+@media (min-width: $tablet-width) {
+    .feedback__note {
+        min-width: 192px;
+        margin: auto 0;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .feedback {
+        min-width: 768px;
+        padding: 0 60px;
+        box-sizing: border-box;
+    }
+}
+
+
+@media (min-width: $tablet-width) {
+    .feedback__form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 70px;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .feedback__field-text {
+        grid-column: 1/3;
+        grid-row: 4/5;
+        min-width: 648px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .feedback__container {
+        display: flex;
+        flex-wrap: no-wrap;
+        flex: 0 1 auto;
+        grid-column: 1/3;
+        grid-row: 5/6;
+        min-width: 648px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 64px;
+    }
+}

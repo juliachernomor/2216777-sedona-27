@@ -14,7 +14,27 @@
     text-decoration: none;
 }
 
+
+@media (min-width: $tablet-width) {
+    .button {
+        min-width: 458px;
+        margin: 0 155px 58px 155px;
+        font-size: 21px;
+    }
+}
+
 .button--all {
     width: 100%;
     border: none;
+}
+
+@media (min-width: $tablet-width) {
+    .button--all {
+        margin: 0;
+        margin-right: 132px;
+        padding: 16px 71px;
+        font-size: 18px;
+        line-height: 26px;
+        min-width: 324px;
+    }
 }

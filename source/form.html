@@ -55,9 +55,9 @@
     </section>
     <section class="form__description description description--form">
       <h2 class="visually-hidden">Описание</h2>
-      <p class="description__text description__text--form"><span class="description__title">
+      <p class="description__text description__text--form"><span class="description__title description__title--form">
         Оставьте свой отзыв
-      </span><span class="description__definition">
+      </span><span class="description__definition description__definition--form">
         Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о
         посещенных вами достопримечательностях
       </span>
@@ -66,7 +66,7 @@
     <section class="form__feedback feedback">
       <h2 class="visually-hidden">Отзыв</h2>
       <form class="feedback__form" action="https://echo.htmlacademy.ru" method="post">
-        <fieldset class="feedback__fieldset fieldset">
+        <fieldset class="feedback__fieldset fieldset fieldset--personalization">
           <legend class="fieldset__title">Представьтесь:</legend>
           <ul class="fieldset__list group">
             <li class="group__item field">
@@ -84,9 +84,9 @@
             </li>
           </ul>
         </fieldset>
-        <fieldset class="feedback__fieldset fieldset">
-          <legend class="fieldset__title">Контактная информация:</legend>
-          <ul class="fieldset__list group">
+        <fieldset class="feedback__fieldset fieldset fieldset--contacts">
+          <legend class="fieldset__title fieldset__title--contacts">Контактная информация:</legend>
+          <ul class="fieldset__list group group--contacts">
             <li class="group__item field">
               <label class="field__label" for="phone">Контактный телефон*:</label>
               <input class="field__input error" type="tel" name="phone" placeholder="Введите телефон" id="phone"
@@ -103,7 +103,7 @@
         </fieldset>
         <fieldset class="feedback__fieldset fieldset fieldset--radio">
           <legend class="fieldset__title fieldset__title--radio">Ваше общее впечатление:</legend>
-          <ul class="fieldset__list group">
+          <ul class="fieldset__list group group--radio">
             <li class="group__item radio">
               <label class="radio__label">
                 <input class="radio__input visually-hidden" type="radio" name="impression" value="Скорее положительное"
@@ -129,11 +129,11 @@
             </li>
           </ul>
         </fieldset>
-        <fieldset class="feedback__fieldset fieldset">
-          <legend class="fieldset__title">
+        <fieldset class="feedback__fieldset fieldset fieldset--checkbox">
+          <legend class="fieldset__title fieldset__title--checkbox">
             Посещенные достопримечательности:
           </legend>
-          <ul class="fieldset__list group">
+          <ul class="fieldset__list group group--checkbox">
             <li class="group__item checkbox">
               <label class="checkbox__label">
                 <input class="visually-hidden checkbox__input" type="checkbox" name="bridge" checked>
@@ -179,7 +179,7 @@
       </form>
     </section>
   </main>
-  <footer class="page__footer footer">
+  <footer class="page__footer footer footer--form">
     <a class="footer__logo logotype" href="#">
       <img class="logotype__text" src="img/visitsedona.svg" width="166" height="26" loading="lazy"
         alt="Логотип 'visitsedona'">
@@ -207,8 +207,8 @@
       </li>
     </ul>
     <a class="footer__copyright copyright" href="https://vk.com/htmlacademy" aria-label="Сайт HTML
-          Academy"><span class="academy">разработано</span>
-      <img width="27" height="34" alt="" src="img/svg/htmlacademy.svg">
+          Academy"><span class="copyright__academy">разработано</span>
+      <img class="copyright__academylogo" width="27" height="34" alt="" src="img/svg/htmlacademy.svg">
     </a>
   </footer>
   <script src="js/script.js"></script>
