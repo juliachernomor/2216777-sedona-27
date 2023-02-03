@@ -15,11 +15,27 @@
     }
 }
 
+@media (min-width: $desktop-width) {
+    .card {
+        width: 1200px;
+        padding: 0;
+    }
+}
+
 @media (min-width: $tablet-width) {
     .card__list {
         min-width: 648px;
-        margin: 0 auto 29px auto;
+        margin: 0 auto 58px auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .card__list {
+        min-width: 1200px;
+        margin: 0 0 62px 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }

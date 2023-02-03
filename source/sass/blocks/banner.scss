@@ -40,7 +40,7 @@
       background-size: 1200px 57px;
       background-repeat: no-repeat;
       background-position: center;
-      top: 461px;
+      top: 462px;
       left: 0;
       right: 0;
       min-height:57px;
@@ -52,6 +52,16 @@
   }
 }
 
+@media (min-width: $desktop-width) {
+  .banner {
+    width: 1200px;
+    height: 518px;
+
+    &::after {
+      top: 462px;
+    }
+  }
+}
 
   .banner__landscape {
     display: block;
@@ -67,6 +77,13 @@
     padding-top: 77px;
     width: 461px;
     height: 350px;
+  }
+}
+
+  
+@media (min-width: $desktop-width) {
+  .banner__landscape {
+    padding-top: 78px;
   }
 }
 

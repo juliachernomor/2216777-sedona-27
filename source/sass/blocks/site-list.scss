@@ -54,9 +54,23 @@
   }
 }
 
+
+
+@media (min-width: $desktop-width) {
+  .site-list__item {
+    width: 240px;
+  }
+}
+
 @media (min-width: $tablet-width) {
   .site-list__item--images {
     margin-right: 153px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list__item--images {
+    margin-right: 240px;
   }
 }
 

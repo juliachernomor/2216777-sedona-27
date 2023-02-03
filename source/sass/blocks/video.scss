@@ -2,14 +2,20 @@
     padding: 6px 20px 0 20px;
     width: 320px;
     box-sizing: border-box;
-    margin: 0 auto;
 }
 
 @media (min-width: $tablet-width) {
     .video {
         padding: 0 60px 0 60px;
-        margin-bottom: 40px;
         width: 768px;
+        height: 500px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .video {
+        padding: 0 200px;
+        width: 1200px;
         height: 500px;
     }
 }
@@ -25,6 +31,14 @@
         height: 500px;
     }
 }
+
+@media (min-width: $desktop-width) {
+    .video__wrapper {
+        width: 800px;
+        height: 500px;
+    }
+}
+
 
 
 .video__button {
@@ -68,5 +82,11 @@
         margin: 0;
         padding: 0;
         object-fit: cover;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .video__container {
+        width: 800px;
     }
 }

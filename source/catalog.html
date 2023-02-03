@@ -15,6 +15,7 @@
     <title>HTML Academy: Sedona</title>
   </head>
   <body class="page__body">
+    <div class="page__wrapper">
     <header class="page__header header">
       <a href="#" class="header__logo logo">
         <img
@@ -70,7 +71,7 @@
         <p class="description__text description__text--catalog"><span class="description__title description__title--catalog">
           Фото и видео
         </span><span class="description__definition description__definition--catalog">
-          Не можете решиться на путешествие из-за курса? Фотографии помогут вам
+          Не можете решиться на путешествие из-за курса?<br> Фотографии помогут вам
           забыть о политике и экономике.
         </span>
         </p>
@@ -92,19 +93,16 @@
                   alt="Закат над дорогой.">
               </picture>
             </a>
-            <div class="one-card__definition">
+            <div class="one-card__definition one-card__definition--width">
             <h3 class="one-card__title">Неродные просторы</h3>
             <p class="one-card__author">Автор фото: Борис</p>
             </div>
-            <p class="one-card__like like">
+            <p class="one-card__like one-card__like--width like">
               <span class="like__icon"
-                ><img
-                  class="like-icon"
-                  width="23"
-                  height="21"
-                  alt=""
-                  src="img/svg/like-icon.svg"></span
-              ><span class="like__count"></span>1350
+                ><svg class="like__icon--emoji" width="23" height="21" viewBox="0 0 23 21" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path  d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM2.09091 10.5V18.9V10.5ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z"/>
+                  </svg></span
+              ><span class="like__count">1350</span>
             </p>
           </li>
           <li class="card__item one-card one-card--2">
@@ -128,13 +126,11 @@
             </div>
             <p class="one-card__like like">
               <span class="like__icon"
-                ><img
-                  class="like-icon"
-                  width="23"
-                  height="21"
-                  alt=""
-                  src="img/svg/like-icon.svg"></span
-              ><span class="like__count"></span>143
+                >
+                <svg class="like__icon--emoji" width="23" height="21" viewBox="0 0 23 21" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path  d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM2.09091 10.5V18.9V10.5ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z"/>
+                  </svg></span
+              ><span class="like__count">143</span>
             </p>
           </li>
           <li class="card__item one-card one-card--3">
@@ -158,13 +154,10 @@
             </div>
             <p class="one-card__like like">
               <span class="like__icon"
-                ><img
-                  class="like-icon"
-                  width="23"
-                  height="21"
-                  alt=""
-                  src="img/svg/like-icon.svg"></span
-              ><span class="like__count"></span>96
+                ><svg class="like__icon--emoji" width="23" height="21" viewBox="0 0 23 21" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path  d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM2.09091 10.5V18.9V10.5ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z"/>
+                  </svg></span
+              ><span class="like__count">96</span>
             </p>
           </li>
           <li class="card__item one-card one-card--4">
@@ -188,13 +181,10 @@
             </div>
             <p class="one-card__like like">
               <span class="like__icon"
-                ><img
-                  class="like-icon"
-                  width="23"
-                  height="21"
-                  alt=""
-                  src="img/svg/like-icon.svg"></span
-              ><span class="like__count"></span>254
+                ><svg class="like__icon--emoji" width="23" height="21" viewBox="0 0 23 21" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path  d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM2.09091 10.5V18.9V10.5ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z"/>
+                  </svg></span
+              ><span class="like__count">254</span>
             </p>
           </li>
         </ul>
@@ -269,6 +259,7 @@
         <img class="copyright__academylogo" width="27" height="34" alt="" src="img/svg/htmlacademy.svg">
       </a>
     </footer>
+  </div>
     <script src="js/script.js"></script>
   </body>
 </html>

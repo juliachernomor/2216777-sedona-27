@@ -5,3 +5,39 @@
     margin-left: 14px;
     color: #000000;
 }
+
+.like__icon--emoji {
+    opacity: 0.3;
+    color: #000000;
+ } 
+
+ 
+@media (min-width: $tablet-width) {
+    .like__count {
+        display: block;
+        margin: 0 27px 0 0;
+        width: 32px;
+    }
+
+    .like__icon--emoji {
+        margin-right: 9px;
+        opacity: 0.3;
+        color: #000000;
+     }
+}
+
+
+@media (min-width: $desktop-width) {
+    .like__icon {
+        color: #ffffff;
+    }
+    
+    .like__count {
+        color: #ffffff;
+    }
+
+    .like__icon--emoji {
+        opacity: 1;
+        color: #ffffff;
+    }
+}

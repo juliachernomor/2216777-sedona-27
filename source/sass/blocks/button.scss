@@ -23,6 +23,14 @@
     }
 }
 
+@media (min-width: $desktop-width) {
+    .button {
+        width: 458px;
+        margin: 0 371px 66px 371px;
+        font-size: 21px;
+    }
+}
+
 .button--all {
     width: 100%;
     border: none;
