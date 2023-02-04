@@ -34,6 +34,9 @@
 .button--all {
     width: 100%;
     border: none;
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
 }
 
 @media (min-width: $tablet-width) {
@@ -41,8 +44,15 @@
         margin: 0;
         margin-right: 132px;
         padding: 16px 71px;
-        font-size: 18px;
-        line-height: 26px;
         min-width: 324px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .button--all {
+        margin: 0;
+        margin-right: 156px;
+        padding: 16px 101px;
+        width: 384px;
     }
 }

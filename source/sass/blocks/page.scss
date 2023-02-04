@@ -55,6 +55,13 @@ overflow-x: hidden;
     margin: 0 auto;
 }
 
+@media (min-width: $desktop-width) {
+    .page__form {
+        width: 1200px;
+        margin: 0;
+    }
+}
+
 @media (max-width: $mobile-width-only) {
     br {
       display: none;

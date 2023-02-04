@@ -15,6 +15,7 @@
   <title>HTML Academy: Sedona</title>
 </head>
 <body class="page__body">
+  <div class="page__wrapper">
   <header class="page__header header">
     <a href="#" class="header__logo logo">
       <img class="logo__picture" src="img/logo.svg" width="185" height="96" loading="lazy" alt="Логотип меню. Sedona.">
@@ -46,7 +47,7 @@
       <h2 class="visually-hidden">Баннер</h2>
       <div class="banner2__wrapper">
         <img
-          class="banner2__picture-text"
+          class="banner2__picture-text banner2__picture-text--fotm"
           width="229"
           height="39"
           alt="Текст баннера"
@@ -89,13 +90,13 @@
           <ul class="fieldset__list group group--contacts">
             <li class="group__item field">
               <label class="field__label" for="phone">Контактный телефон*:</label>
-              <input class="field__input error" type="tel" name="phone" placeholder="Введите телефон" id="phone"
+              <input class="field__input field__input--color error" type="tel" name="phone" placeholder="Введите телефон" id="phone"
                 required>
               <span class="field__phone field__phone-error"></span>
             </li>
             <li class="group__item field field--intends">
               <label class="field__label" for="email">Электронная почта*:</label>
-              <input class="field__input error" type="email" name="email" placeholder="Введите e-mail" id="email"
+              <input class="field__input field__input--color error" type="email" name="email" placeholder="Введите e-mail" id="email"
                 required>
               <span class="field__email field__email-error"></span>
             </li>
@@ -159,7 +160,7 @@
               <label class="checkbox__label">
                 <input class="visually-hidden checkbox__input" type="checkbox" name="rocks">
                 <span class="checkbox__control-mark"></span>
-                <span class="checkbox__control-label">Красные скалы</span>
+                <span class="checkbox__control-label">Красные&nbsp;скалы</span>
               </label>
             </li>
           </ul>
@@ -211,6 +212,7 @@
       <img class="copyright__academylogo" width="27" height="34" alt="" src="img/svg/htmlacademy.svg">
     </a>
   </footer>
+</div>
   <script src="js/script.js"></script>
 </body>
 </html>

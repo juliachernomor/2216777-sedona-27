@@ -5,6 +5,15 @@
     margin: 10px 0 36px 0;
 }
 
+
+@media (min-width: $desktop-width) {
+  .checkbox {
+    margin: 0;
+    width: 172px;
+    min-width: 172px;
+  }
+}
+
 .checkbox__control-label {
     display: block;
     margin: 0 0 0 62px;

@@ -47,6 +47,10 @@
     line-height: 26px;
   }
 
+  .field__input--color::placeholder {
+    color: rgba(0,0,0, 0.3);
+  }
+
   .field--intends {
     margin-bottom: 0;
   }

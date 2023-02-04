@@ -23,6 +23,17 @@
     }
 }
 
+@media (min-width: $desktop-width) {
+    .group--radio {
+        width: 960px;
+        padding: 17px 53px 17px 53px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 28px;
+        box-sizing: border-box;
+    }
+}
+
 @media (min-width: $tablet-width) {
     .group--checkbox {
         min-width: 480px;
@@ -30,5 +41,16 @@
         grid-template-columns: repeat(2, 1fr);
         column-gap: 32px;
         padding: 0 84px 0 84px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .group--checkbox {
+        min-width: 960px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 64px;
+        padding: 31px 44.5px 31px 44.5px;
+        box-sizing: border-box;
     }
 }
