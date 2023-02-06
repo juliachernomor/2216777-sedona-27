@@ -4,6 +4,15 @@
     min-width: 128px;
     min-height: 34px;
     text-decoration: none;
+    color: #000000;
+
+    &:hover {
+        color: #669ec0;
+    }
+
+    &:active {
+        color:  #5496bd;
+    }
 }
 
 .copyright__academy {
@@ -12,7 +21,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    color: #000000;
     text-transform: uppercase;
 
 }
@@ -23,7 +31,7 @@
 
 @media (min-width: $tablet-width) {
     .copyright {
-        min-width: 128px;
+        min-width: 125px;
         justify-content: end;
     }
 }

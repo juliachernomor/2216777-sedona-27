@@ -31,18 +31,27 @@
     height: 56px;
     border: none;
     z-index: 46;
-    background-image: url(../../img/svg/menu-close.svg);
+    background-image: url(../img/svg/stack.svg#menu-close);
     background-repeat: no-repeat;
     background-size: 22px 22px;
     background-position: 17px 17px;
     background-color: #81b3d2;
     z-index: 5555555;
     cursor: pointer;
+    
+    &:hover {
+      opacity: 60%;
+    }
+
+    &:active {
+      opacity: 30%;
+    }
   }
+  
 
 
   .nav--closed .nav__toggle {
-    background-image: url(../../img/svg/toggle.svg);
+    background-image: url(../img/svg/stack.svg#toggle);
     background-repeat: no-repeat;
     background-size: 23px 22px;
     background-position: 16.5px 17px;

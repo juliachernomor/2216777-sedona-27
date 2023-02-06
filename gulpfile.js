@@ -29,7 +29,7 @@ export const styles = () => {
 
 //HTML
 const html = () => {
-  return gulp.src ('source/*.html')
+  return gulp.src('source/*.html')
   .pipe(htmlmin({collapseWhitespace:true}))
   .pipe(gulp.dest('build'));
 }
@@ -111,7 +111,7 @@ const server = (done) => {
 
 // Reload
 const reload = (done) => {
-  sync.reload();
+  browser.reload();
   done();
   }
 

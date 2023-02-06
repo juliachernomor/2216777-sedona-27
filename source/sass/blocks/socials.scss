@@ -4,3 +4,26 @@
     column-gap: 6px;
     list-style-type: none;
 }
+
+.socials__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    color: #ffffff;
+    background-color: #81b3d2;
+
+    &:hover {
+        background-color: #669ec0;
+    }
+
+    &:active {
+        color: rgba(255, 255, 255, 0.3);
+        background-color: #5496bd;
+    }
+}
+
+.socials__icon:active {
+    color: rgba(255, 255, 255, 0.3);
+}
