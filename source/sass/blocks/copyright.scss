@@ -1,7 +1,8 @@
 .copyright {
     display: flex;
-    justify-content: center;
     min-width: 128px;
+    justify-content: space-between;
+    padding: 0 96px;
     min-height: 34px;
     text-decoration: none;
     color: #000000;
@@ -19,11 +20,18 @@
     display: block;
     margin: auto 12px auto 0;
     font-weight: 400;
+    min-width: 89px;
     font-size: 14px;
     line-height: 21px;
     text-transform: uppercase;
-
 }
+
+.copyright__academylogo {
+    width: 27px;
+    height: 34px;
+    flex-shrink: 0;
+}
+
 
 .copyright__academy {
     display: block;
@@ -32,6 +40,7 @@
 @media (min-width: $tablet-width) {
     .copyright {
         min-width: 125px;
+        padding: 0;
         justify-content: end;
     }
 }

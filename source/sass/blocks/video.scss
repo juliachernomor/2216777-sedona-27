@@ -57,12 +57,13 @@
         position: absolute;
         content: "";
         width: 48px;
-        height: 45px;
+        height: 54px;
         top:40%;
         left:45%;
-        background-image: url(../../img/svg/video-polygon.svg);
+        background-image: url(../../img/svg/stack.svg#video-polygon);
         background-repeat: no-repeat;
-        background-size: 48px 45px;
+        background-size: 48px 54px;
+        z-index: 777777777;
     }
 }
 

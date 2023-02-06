@@ -28,9 +28,11 @@
 }
 
 .field-text__input {
+    display: block;
     width: 100%;
     min-width: 280px;
     min-height: 150px;
+    height: 100%;
     padding: 16px 16px 16px 16px;
     margin: 0;
     box-sizing: border-box;

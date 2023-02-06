@@ -9,9 +9,11 @@
     .footer {
         width: 100%;
         display: flex;
+        row-gap: 20px;
         min-width: 653px;
         min-height: 48px;
         padding: 36px 76px 36px 45px;
+        margin-bottom: 36px;
         flex-wrap: wrap;
         justify-content: start;
         align-items: center;
