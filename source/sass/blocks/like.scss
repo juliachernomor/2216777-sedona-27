@@ -6,7 +6,7 @@
     color: #000000;
 }
 
-.like__icon--emoji {
+.like__emoji {
     opacity: 0.3;
     color: #000000;
  } 
@@ -15,11 +15,11 @@
 @media (min-width: $tablet-width) {
     .like__count {
         display: block;
-        margin: 0 27px 0 0;
+        margin: 0 20px 0 0;
         width: 32px;
     }
 
-    .like__icon--emoji {
+    .like__emoji {
         margin-right: 9px;
         opacity: 0.3;
         color: #000000;
@@ -36,7 +36,7 @@
         color: #ffffff;
     }
 
-    .like__icon--emoji {
+    .like__emoji {
         opacity: 1;
         color: #ffffff;
     }

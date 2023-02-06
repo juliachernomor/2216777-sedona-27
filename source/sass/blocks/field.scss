@@ -30,6 +30,16 @@
     line-height: 26px;
     border: none;
     cursor: pointer;
+
+    &:hover {
+      background-color: #e5e5e5;
+    }
+
+    &:active,
+    &:focus {
+      background-color: #ffffff;
+      outline: 4px solid #e5e5e5;
+    }
   }
 
   @media (min-width: $tablet-width) {
@@ -40,15 +50,11 @@
   }
 
   .field__input::placeholder {
-    color: #000000;
+    color: rgba(0,0,0, 0.3);
     font-family:"PTSans", "Arial", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
-  }
-
-  .field__input--color::placeholder {
-    color: rgba(0,0,0, 0.3);
   }
 
   .field--intends {

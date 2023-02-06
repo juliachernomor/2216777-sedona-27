@@ -42,12 +42,25 @@
   left: 28%;
   width: 22px;
   height: 16px;
-  background-image: url("../img/svg/tick.svg");
+  mask-image: url("../img/svg/stack.svg#tick");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: #000000;
 }
 
 .checkbox--intends {
   margin-bottom: 0;
+}
+
+.checkbox__input[type="checkbox"]:hover + .checkbox__control-mark {
+  background-color: #e5e5e5;
+}
+
+.checkbox__input[type="checkbox"]:active + .checkbox__control-mark::before {
+  opacity: 30%;
+}
+
+.checkbox__input[type="checkbox"]:active + .checkbox__control-mark {
+  background-color: #d5d5d5;
 }

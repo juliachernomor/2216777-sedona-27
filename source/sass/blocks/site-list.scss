@@ -99,8 +99,8 @@
     margin: 0 auto;
 }
 
-.site-list__link--current {
-  color: #766357;
+.site-list__current {
+  color: #e5e5e5;
 }
 
 
@@ -119,9 +119,9 @@
     color: #5496BD;
   }
 
-  .site-list__link--current {
+  .site-list__current {
     display: block;
     margin-top: 18px;
-    color: #766357;
+    color: #e5e5e5;
   }
 }

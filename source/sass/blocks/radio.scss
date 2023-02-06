@@ -49,3 +49,16 @@
   .radio--intends {
     margin-bottom: 0;
   }
+
+  
+.radio__input[type="radio"]:hover + .radio__control-mark {
+  background-color: #e5e5e5;
+}
+
+.checkbox__input[type="checkbox"]:active + .radio__control-mark::before {
+  opacity: 30%;
+}
+
+.radio__input[type="radio"]:active + .radio__control-mark {
+  background-color: #d5d5d5;
+}

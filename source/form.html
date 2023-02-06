@@ -27,7 +27,7 @@
                         <li class="site-list__item site-list__item--images site-list__item--hover"><a class="site-list__link"
                                 href="catalog.html">Фото и видео</a></li>
                         <li class="site-list__item site-list__item--feedback"><span
-                                class="site-list__link--current">Форма отзыва</span></li>
+                                class="site-list__current">Форма отзыва</span></li>
                         <li class="site-list__item site-list__item--academy site-list__item--hover"><a class="site-list__link"
                                 href="https://htmlacademy.ru/study">HTML academy</a></li>
                     </ul>
@@ -42,6 +42,7 @@
                     <svg class = "banner2__picture-text banner2__picture-text--fotm" width="229" height="39" viewBox="0 0 229 39">
                         <use href="img/svg/stack.svg#sedona-text"></use>
                     </svg>
+                </div>
             </section>
             <section class="form__description description description--form">
                 <h2 class="visually-hidden">Описание</h2>
@@ -57,26 +58,26 @@
                         <legend class="fieldset__title">Представьтесь:</legend>
                         <ul class="fieldset__list group">
                             <li class="group__item field"><label class="field__label" for="name">Имя:*</label> <input
-                                    class="field__input error" type="text" name="name" placeholder="Пётр" id="name"
+                                    class="field__input error" type="text" name="name" placeholder="Введите фамилию" id="name"
                                     required></li>
                             <li class="group__item field"><label class="field__label" for="surname">Фамиилия*:</label>
-                                <input class="field__input error" type="text" name="surname" placeholder="Пустота"
+                                <input class="field__input error" type="text" name="surname" placeholder="Введите имя"
                                     id="surname" required></li>
                             <li class="group__item field field--intends"><label class="field__label"
                                     for="patronymic">Отчество</label> <input class="field__input error" type="text"
-                                    name="patronymic" placeholder="Викторович" id="patronymic" required></li>
+                                    name="patronymic" placeholder="Введите отчество" id="patronymic" required></li>
                         </ul>
                     </fieldset>
                     <fieldset class="feedback__fieldset fieldset fieldset--contacts">
                         <legend class="fieldset__title fieldset__title--contacts">Контактная информация:</legend>
                         <ul class="fieldset__list group group--contacts">
                             <li class="group__item field"><label class="field__label" for="phone">Контактный
-                                    телефон*:</label> <input class="field__input field__input--color error" type="tel"
+                                    телефон*:</label> <input class="field__input error" type="tel"
                                     name="phone" placeholder="Введите телефон" id="phone" required> <span
                                     class="field__phone field__phone-error"></span></li>
                             <li class="group__item field field--intends"><label class="field__label"
                                     for="email">Электронная почта*:</label> <input
-                                    class="field__input field__input--color error" type="email" name="email"
+                                    class="field__input error" type="email" name="email"
                                     placeholder="Введите e-mail" id="email" required> <span
                                     class="field__email field__email-error"></span></li>
                         </ul>
@@ -134,24 +135,41 @@
                 </form>
             </section>
         </main>
-        <footer class="page__footer footer footer--form"><a class="footer__logo logotype" href="#"><img
-                    class="logotype__text" src="img/visitsedona.svg" width="166" height="26" loading="lazy"
-                    alt="Логотип 'visitsedona'"></a>
+        <footer class="page__footer footer footer--form"><a class="footer__logo logotype" href="#">
+            <span class="visually-hidden">Хэштег #visitsedona.</span>
+            <svg class = "logotype__text" width="166" height="26" viewBox="0 0 166 26">
+                        <use href="img/svg/stack.svg#visitsedona"></use>
+                    </svg>
+                </a>
             <ul class="footer__socials socials">
                 <li class="socials__item"><a class="socials__link socials__link--vkontakte"
                         href="https://vk.com/htmlacademy"><span class="visually-hidden">Перейти на нашу страницу
-                            Вконтакте.</span> <img width="48" height="48" alt="" src="img/svg/vk.svg"></a></li>
+                            Вконтакте.</span> 
+                            <svg class = "socials__icon" width="24" height="14" viewBox="0 0 24 14">
+                                <use href="img/svg/stack.svg#vk"></use>
+                            </svg>
+                        </a></li>
                 <li class="socials__item"><a class="socials__link socials__link--telegram"
-                        href="https://t.me/htmlacademy"><span class="visually-hidden">Перейти в Телеграм.</span> <img
-                            width="48" height="48" alt="" src="img/svg/tg.svg"></a></li>
+                        href="https://t.me/htmlacademy"><span class="visually-hidden">Перейти в Телеграм.</span>
+                        <svg class = "socials__icon" width="22" height="18" viewBox="0 0 22 18">
+                            <use href="img/svg/stack.svg#tg"></use>
+                        </svg>
+                        </a></li>
                 <li class="socials__item"><a class="socials__link socials__link--youtube"
                         href="https://www.youtube.com/user/htmlacademyru"><span class="visually-hidden">Перейти на нашу
-                            страницу Youtube.</span> <img width="48" height="48" alt="" src="img/svg/yt.svg"></a></li>
+                            страницу Youtube.</span> 
+                            <svg class = "socials__icon" width="20" height="14" viewBox="0 0 20 14">
+                                <use href="img/svg/stack.svg#youtube"></use>
+                            </svg>
+                        </a></li>
             </ul><a class="footer__copyright copyright" href="https://vk.com/htmlacademy" aria-label="Сайт HTML
-          Academy"><span class="copyright__academy">разработано</span> <img class="copyright__academylogo" width="27"
-                    height="34" alt="" src="img/svg/htmlacademy.svg"></a>
+          Academy"><span class="copyright__academy">разработано</span>
+                    <svg class = "copyright__academylogo" width="27" height="34" viewBox="0 0 27 34">
+                        <use href="img/svg/stack.svg#htmlacademy"></use>
+                    </svg></a>
         </footer>
     </div>
+    <!-- <script src="js/script-full.js"></script> -->
     <script src="js/color.js"></script>
     <script src="js/script.js"></script>
 </body>

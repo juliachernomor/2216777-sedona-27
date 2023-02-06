@@ -23,7 +23,6 @@
     text-transform: uppercase;
 }
 
-
 @media (min-width: $tablet-width) {
     .feedback__note {
         min-width: 192px;
@@ -57,14 +56,13 @@
     }
 }
 
-@media (min-width: $tablet-width) {
+@media (min-width: $desktop-width) {
     .feedback__form {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 128px;
     }
 }
-
 
 @media (min-width: $tablet-width) {
     .feedback__field-text {

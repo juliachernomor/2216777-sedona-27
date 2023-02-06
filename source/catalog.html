@@ -25,7 +25,7 @@
                         <li class="site-list__item site-list__item--main site-list__item--hover" onmouseover="changeItem()" onmouseout="rechangeItem()"><a class="site-list__link"
                                 href="index.html">Главная</a></li>
                         <li class="site-list__item site-list__item--images"><span
-                                class="site-list__link--current">Фото и видео</span></li>
+                                class="site-list__current">Фото и видео</span></li>
                         <li class="site-list__item site-list__item--feedback site-list__item--hover"><a class="site-list__link"
                                 href="form.html">Форма отзыва</a></li>
                         <li class="site-list__item site-list__item--academy site-list__item--hover"><a class="site-list__link"
@@ -66,7 +66,7 @@
                             <p class="one-card__author">Автор фото: Борис</p>
                         </div>
                         <p class="one-card__like one-card__like--width like"><span class="like__icon"><svg
-                                    class="like__icon--emoji" width="23" height="21" viewBox="0 0 23 21"
+                                    class="like__emoji" width="23" height="21" viewBox="0 0 23 21"
                                     fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM2.09091 10.5V18.9V10.5ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z" />
@@ -85,7 +85,7 @@
                             <h3 class="one-card__title">Местная растительность</h3>
                             <p class="one-card__author">Автор фото: Сергей</p>
                         </div>
-                        <p class="one-card__like like"><span class="like__icon"><svg class="like__icon--emoji"
+                        <p class="one-card__like like"><span class="like__icon"><svg class="like__emoji"
                                     width="23" height="21" viewBox="0 0 23 21" fill="currentColor"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -105,7 +105,7 @@
                             <h3 class="one-card__title">Дорога на север</h3>
                             <p class="one-card__author">Автор фото: Петр</p>
                         </div>
-                        <p class="one-card__like like"><span class="like__icon"><svg class="like__icon--emoji"
+                        <p class="one-card__like like"><span class="like__icon"><svg class="like__emoji"
                                     width="23" height="21" viewBox="0 0 23 21" fill="currentColor"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -125,7 +125,7 @@
                             <h3 class="one-card__title">Мост дьявола</h3>
                             <p class="one-card__author">Автор фото: Антон</p>
                         </div>
-                        <p class="one-card__like like"><span class="like__icon"><svg class="like__icon--emoji"
+                        <p class="one-card__like like"><span class="like__icon"><svg class="like__emoji"
                                     width="23" height="21" viewBox="0 0 23 21" fill="currentColor"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -144,28 +144,45 @@
                 <h2 class="visually-hidden">Седона на видео</h2>
                 <div class="video__wrapper"><button class="video__button"><span
                             class="visually-hidden">Воспроизвести</span></button><video class="video__container"
-                        width="280" height="177" poster="img/video@2x.jpg" loading="lazy"
-                        alt="Мы на карте города.">Видео не поддерживается вашим браузером</video></div>
+                        width="280" height="177" poster="img/video@2x.jpg"></video>
+                       </div>
             </section>
         </main>
-        <footer class="page__footer footer footer--catalog"><a class="footer__logo logotype" href="#"><img
-                    class="logotype__text" src="img/visitsedona.svg" width="166" height="26" loading="lazy"
-                    alt="Логотип 'visitsedona'"></a>
+        <footer class="page__footer footer footer--catalog"><a class="footer__logo logotype" href="#">
+            <span class="visually-hidden">Хэштег #visitsedona.</span>
+            <svg class = "logotype__text" width="166" height="26" viewBox="0 0 166 26">
+                        <use href="img/svg/stack.svg#visitsedona"></use>
+                    </svg>
+                </a>
             <ul class="footer__socials socials">
                 <li class="socials__item"><a class="socials__link socials__link--vkontakte"
                         href="https://vk.com/htmlacademy"><span class="visually-hidden">Перейти на нашу страницу
-                            Вконтакте.</span> <img width="48" height="48" alt="" src="img/svg/vk.svg"></a></li>
+                            Вконтакте.</span> 
+                            <svg class = "socials__icon" width="24" height="14" viewBox="0 0 24 14">
+                                <use href="img/svg/stack.svg#vk"></use>
+                            </svg>
+                        </a></li>
                 <li class="socials__item"><a class="socials__link socials__link--telegram"
-                        href="https://t.me/htmlacademy"><span class="visually-hidden">Перейти в Телеграм.</span> <img
-                            width="48" height="48" alt="" src="img/svg/tg.svg"></a></li>
+                        href="https://t.me/htmlacademy"><span class="visually-hidden">Перейти в Телеграм.</span>
+                        <svg class = "socials__icon" width="22" height="18" viewBox="0 0 22 18">
+                            <use href="img/svg/stack.svg#tg"></use>
+                        </svg>
+                        </a></li>
                 <li class="socials__item"><a class="socials__link socials__link--youtube"
                         href="https://www.youtube.com/user/htmlacademyru"><span class="visually-hidden">Перейти на нашу
-                            страницу Youtube.</span> <img width="48" height="48" alt="" src="img/svg/yt.svg"></a></li>
+                            страницу Youtube.</span> 
+                            <svg class = "socials__icon" width="20" height="14" viewBox="0 0 20 14">
+                                <use href="img/svg/stack.svg#youtube"></use>
+                            </svg>
+                        </a></li>
             </ul><a class="footer__copyright copyright" href="https://vk.com/htmlacademy" aria-label="Сайт HTML
-          Academy"><span class="copyright__academy">разработано</span> <img class="copyright__academylogo" width="27"
-                    height="34" alt="" src="img/svg/htmlacademy.svg"></a>
+          Academy"><span class="copyright__academy">разработано</span>
+                    <svg class = "copyright__academylogo" width="27" height="34" viewBox="0 0 27 34">
+                        <use href="img/svg/stack.svg#htmlacademy"></use>
+                    </svg></a>
         </footer>
     </div>
+    <script src="js/script-full.js"></script>
     <script src="js/color.js"></script>
     <script src="js/script.js"></script>
 </body>

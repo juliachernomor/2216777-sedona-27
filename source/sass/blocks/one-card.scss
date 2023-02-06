@@ -68,6 +68,7 @@
 
     .one-card__image--2 {
         min-height: 267px;
+
     }
 
     .one-card__image--3 {
@@ -88,7 +89,7 @@
 
 @media (min-width: $tablet-width) {
     .one-card__definition {
-        min-width: 229px;
+        min-width: 225px;
         width: 209px;
         margin: 22px 0 15px 20px;
     }
@@ -115,7 +116,7 @@
     .one-card__like {
         display: flex;
         justify-content: start;
-        width: 100px;
+        width: 80px;
         margin: 28px 0 20px auto;
     }
 }
@@ -140,21 +141,25 @@
 
 @media (min-width: $tablet-width) {
     .one-card--1 {
+        min-width: 648px;
         grid-column: 1/3;
         grid-row: 1/2;
     }
 
     .one-card--2 {
+        min-width: 324px;
         grid-column: 1/2;
         grid-row: 2/3;
     }
 
     .one-card--3 {
+        min-width: 324px;
         grid-column: 2/3;
         grid-row: 2/3;
     }
 
     .one-card--4 {
+        min-width: 324px;
         grid-column: 1/2;
         grid-row: 3/4;
     }

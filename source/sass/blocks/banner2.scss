@@ -13,7 +13,7 @@
     &::after {
       position: absolute;
       content:"";
-      background-image: url(../../img/svg/banner-corner.svg);
+      background-image: url(../img/svg/stack.svg#banner-corner);
       background-size: 1201px 57px;
       background-repeat: no-repeat;
       background-position: center;
@@ -43,7 +43,7 @@
         background-size: 1200px 518px;
 
         &::after {
-            top: 234px;
+            top: 236px;
         }
     
 
