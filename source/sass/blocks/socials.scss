@@ -1,5 +1,7 @@
 .socials {
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
     justify-content: center;
     column-gap: 6px;
     list-style-type: none;

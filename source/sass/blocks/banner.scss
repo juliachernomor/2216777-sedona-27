@@ -1,10 +1,10 @@
 .banner {
     position: relative;
     min-width: 320px;
-    min-height: 389px;
+    min-height: 388px;
     margin: 0 auto;
     background-image: url("../../img/backgroundindex-mobile.jpg");
-    background-size: 901px 389px;
+    background-size: 901px 388px;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 
@@ -15,7 +15,7 @@
         background-size: 1201px 57px;
         background-repeat: no-repeat;
         background-position: center;
-        top: 333px;
+        top: 332px;
         left: 0;
         right: 0;
         min-height:57px;
@@ -29,9 +29,9 @@
 @media (min-width: $tablet-width) {
   .banner {
     min-width: 768px;
-    min-height: 518px;
+    min-height: 517.5px;
     background-image: url("../../img/backgroundindex-tabdesk.jpg");
-    background-size: 1200px 518px;
+    background-size: 1200px 517.5px;
 
     &::after {
       position: absolute;
@@ -40,7 +40,7 @@
       background-size: 1200px 57px;
       background-repeat: no-repeat;
       background-position: center;
-      top: 464px;
+      top: 461px;
       left: 0;
       right: 0;
       min-height:57px;
@@ -55,10 +55,10 @@
 @media (min-width: $desktop-width) {
   .banner {
     width: 1200px;
-    height: 518px;
+    height: 517.5px;
 
     &::after {
-      top: 463px;
+      top: 461px;
     }
   }
 }

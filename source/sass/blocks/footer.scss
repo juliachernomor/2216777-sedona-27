@@ -77,10 +77,22 @@
     padding: 0 77px;
 }
 
+@media (min-width: $desktop-width) {
+    .footer__socials {
+        margin: 0;
+    }
+}
+
 @media (min-width: $tablet-width) {
     .footer__copyright {
         margin: 0;
         padding: 0;
         flex: 1 1 auto;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .footer__copyright {
+        width: 254px;
     }
 }

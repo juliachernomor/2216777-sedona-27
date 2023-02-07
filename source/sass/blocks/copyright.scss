@@ -1,6 +1,7 @@
 .copyright {
     display: flex;
-    min-width: 128px;
+    flex-wrap: wrap;
+    min-width: 138px;
     justify-content: space-between;
     padding: 0 96px;
     min-height: 34px;
@@ -30,6 +31,7 @@
     width: 27px;
     height: 34px;
     flex-shrink: 0;
+    margin-right: 10px;
 }
 
 

@@ -21,6 +21,12 @@
     font-family: "PTSans", "Arial", sans-serif;
     font-size: 14px;
     line-height: 21px;
+    margin-bottom: 16px;
+}
+
+.one-card__like {
+    margin: 0;
+    margin-bottom: 16px;
 }
 
 .one-card__title {
@@ -68,7 +74,6 @@
 
     .one-card__image--2 {
         min-height: 267px;
-
     }
 
     .one-card__image--3 {

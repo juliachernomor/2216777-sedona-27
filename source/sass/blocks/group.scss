@@ -28,6 +28,7 @@
         width: 960px;
         padding: 17px 53px 17px 53px;
         display: grid;
+        row-gap: 35px;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 28px;
         box-sizing: border-box;
@@ -48,6 +49,7 @@
     .group--checkbox {
         min-width: 960px;
         display: grid;
+        row-gap: 35px;
         grid-template-columns: repeat(4, 1fr);
         column-gap: 64px;
         padding: 31px 44.5px 31px 44.5px;

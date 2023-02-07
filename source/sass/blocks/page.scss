@@ -32,8 +32,6 @@ overflow-x: hidden;
     }
 }
 
-
-
 .page__container {
     min-width: 320px;
     width: 100%;
@@ -61,9 +59,3 @@ overflow-x: hidden;
         margin: 0;
     }
 }
-
-@media (max-width: $mobile-width-only) {
-    br {
-      display: none;
-    }
-  }

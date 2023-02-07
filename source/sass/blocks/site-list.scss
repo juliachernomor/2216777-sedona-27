@@ -108,10 +108,9 @@
 @media (min-width: $tablet-width) {
   .site-list__link {
     display: block;
-    margin-top: 18px;
-    margin-bottom: 17px;
+    margin-top: 13px;
+    margin-bottom: 12px;
     color:#000000;
-    padding: 5px;
   }
 
   .site-list__link:hover {
@@ -124,9 +123,8 @@
 
   .site-list__current {
     display: block;
-    margin-top: 18px;
-    margin-bottom: 17px;
+    margin-top: 13px;
+    margin-bottom: 12px;
     color: #e5e5e5;
-    padding: 5px;
   }
 }
