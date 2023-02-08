@@ -66,6 +66,19 @@
     margin-bottom: 35px;
 }
   
+@media (min-width: $tablet-width) { 
+    .description__title {
+        font-size: 21px;
+        line-height: 27px;
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: $desktop-width) { 
+    .description__title {
+        margin-bottom: 28px;
+    }
+}
+
 .description__definition {
     display: block;
     font-weight: 400;
@@ -78,13 +91,13 @@
 
 @media (min-width: $tablet-width) { 
     .description__definition {
-        margin-bottom: 55.5px;
+        margin-bottom: 54px;
     }
 }
 
-@media (min-width: $tablet-width) { 
+@media (min-width: $desktop-width) { 
     .description__definition {
-        margin-bottom: 44px;
+        margin-bottom: 44.5px;
     }
 }
 

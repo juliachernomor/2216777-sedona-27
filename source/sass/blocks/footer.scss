@@ -12,7 +12,7 @@
         row-gap: 20px;
         min-width: 653px;
         min-height: 48px;
-        padding: 36px 76px 36px 45px;
+        padding: 36px 66px 36px 50px;
         margin-bottom: 36px;
         flex-wrap: wrap;
         justify-content: start;
@@ -32,7 +32,7 @@
     .footer {
         width: 1200px;
         min-height: 48px;
-        padding: 36px 136px 36px 104px;
+        padding: 36px 126px 36px 75px;
         justify-content: space-between;
     }
 
@@ -44,18 +44,27 @@
 
 .footer__logo {
     display: block;
-    margin: 0 auto 33.5px auto;
-    padding: 38.5px 77px 0 77px;
+    margin: 0 auto 26px auto;
+    padding: 39px 77px 0 90px;
     text-align: center;
 }
 
 @media (min-width: $tablet-width) {
     .footer__logo {
-        margin: 0 97px 0 0;
+        margin: 0 59px 0 0;
         padding: 0;
         flex: 1 1 auto;
     }
 }
+
+@media (min-width: $desktop-width) {
+    .footer__logo {
+        margin: 0 143px 0 0;
+        padding: 0;
+        flex: 1 1 auto;
+    }
+}
+
 
 .footer__socials {
     margin: 0 auto;

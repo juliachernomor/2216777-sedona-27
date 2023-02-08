@@ -11,17 +11,20 @@
 }
 
 .logotype-text {
-    display: inline-block;
-    min-width: 166px;
-    min-height: 26px;
-    width: 100%;
+    display: block;
     margin: 0 auto;
 }
 
 @media (min-width: $tablet-width) {
+    .logotype {
+        margin-top: 17px;
+    }
+}
+
+@media (min-width: $tablet-width) {
     .logotype-text {
-        display: block;
         padding: 0;
         min-width: 166px;
+
     }
 }
