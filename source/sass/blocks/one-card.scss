@@ -1,7 +1,7 @@
 .one-card {
     display: grid;
     grid-template-columns: 1f;
-    padding: 25px 20px;
+    padding: 25px 20px 10px 20px;
 }
 
 .one-card__image {
@@ -21,7 +21,7 @@
     font-family: "PTSans", "Arial", sans-serif;
     font-size: 14px;
     line-height: 21px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 
 .one-card__like {
@@ -32,6 +32,7 @@
 .one-card__title {
     font-weight: 700;
     text-transform: uppercase;
+    font-size: 14px;
     margin: 0;
     padding: 0;
 }
@@ -109,17 +110,19 @@
         grid-column: 1/2;
         grid-row: 1/2;
         color: #ffffff;
-        padding: 17px 0 17px 25px;
+        padding: 17px 0 10px 23px;
         margin: 0;
         margin-top: 187px;
         width: 175px;
         background-color: rgba(0, 0, 0, 0.3);
         z-index: 33333;
+        line-height: 26px;
     }
 
     .one-card__definition--width {
         width: 575px;
-        margin-top: 320px;
+        margin-top: 324px;
+        line-height: 21px;
     }
 }
 
@@ -127,6 +130,7 @@
     .one-card__like {
         display: flex;
         justify-content: start;
+        align-items: center;
         width: 80px;
         margin: 28px 0 20px auto;
     }
@@ -134,10 +138,7 @@
     .one-card__like--width {
         width: 324px;
         justify-content: end;
-
-    .like__count--width {
-            width: 280px;
-        }
+        align-items: center;
     }
 }
 

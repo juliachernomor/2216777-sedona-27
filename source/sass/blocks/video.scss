@@ -1,6 +1,7 @@
 .video {
     padding: 6px 20px 0 20px;
     width: 320px;
+    height: 177px;
     box-sizing: border-box;
 }
 
@@ -58,8 +59,8 @@
         content: "";
         width: 48px;
         height: 54px;
-        top:40%;
-        left:45%;
+        top:36%;
+        left:41%;
         background-image: url(../../img/svg/stack.svg#video-polygon);
         background-repeat: no-repeat;
         background-size: 48px 54px;
@@ -84,10 +85,20 @@
         padding: 0;
         object-fit: cover;
     }
+
+    .video__button::before {
+        top:45%;
+        left:46%;
+    }
 }
 
 @media (min-width: $desktop-width) {
     .video__container {
         width: 800px;
+    }
+
+    .video__button::before {
+        top:46%;
+        left:47%;
     }
 }

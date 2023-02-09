@@ -79,30 +79,34 @@
 
 .searching__question--catalog {
     padding: 18px 27px 0 27px;
+    font-size: 18px;
+    margin-bottom: 26px;
 }
 
 @media (min-width: $tablet-width) {
     .searching__question--catalog {
-        padding: 0 162px;
+        padding: 0 160px 0 155px;
+        font-size: 30px;
+        margin-bottom: 33px;
     }
 }
 
 @media (min-width: $desktop-width) {
     .searching__question--catalog {
-        padding: 0 377.5px;
+        padding: 0 377.5px 0 370px;
     }
 }
 
 @media (min-width: $tablet-width) {
     .searching__text--catalog {
-        padding: 0 162px;
-        margin-bottom: 66px;
+        padding: 0 160px 0 155px;
+        margin-bottom: 89px;
     }
 }
 
 @media (min-width: $desktop-width) {
     .searching__text--catalog {
         padding: 0 377.5px;
-        margin-bottom: 64px;
+        margin-bottom: 86px;
     }
 }
