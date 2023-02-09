@@ -1,18 +1,17 @@
 .logo {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 185px;
-    height: 96px;
-    z-index: 1;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 185px;
+  height: 96px;
+  z-index: 1;
 }
 
-
 @media (min-width: $tablet-width) {
-    .logo {
-        z-index: 5555555555;
-    }
+  .logo {
+    z-index: 5555555555;
+  }
 }

@@ -1,58 +1,57 @@
 .group {
+  min-width: 280px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media (min-width: $tablet-width) {
+  .group--contacts {
     min-width: 280px;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+    padding-left: 18px;
+  }
 }
 
 @media (min-width: $tablet-width) {
-    .group--contacts {
-        min-width: 280px;
-        padding-left: 18px;
-    }
-}
-
-
-@media (min-width: $tablet-width) {
-    .group--radio {
-        min-width: 576px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 16px;
-        padding: 0 48px 0 24px;
-    }
+  .group--radio {
+    min-width: 576px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16px;
+    padding: 0 48px 0 24px;
+  }
 }
 
 @media (min-width: $desktop-width) {
-    .group--radio {
-        width: 960px;
-        padding: 17px 53px 17px 53px;
-        display: grid;
-        row-gap: 35px;
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 28px;
-        box-sizing: border-box;
-    }
+  .group--radio {
+    width: 960px;
+    padding: 17px 53px 17px 53px;
+    display: grid;
+    row-gap: 35px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 28px;
+    box-sizing: border-box;
+  }
 }
 
 @media (min-width: $tablet-width) {
-    .group--checkbox {
-        min-width: 480px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 32px;
-        padding: 0 84px 0 84px;
-    }
+  .group--checkbox {
+    min-width: 480px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 32px;
+    padding: 0 84px 0 84px;
+  }
 }
 
 @media (min-width: $desktop-width) {
-    .group--checkbox {
-        min-width: 960px;
-        display: grid;
-        row-gap: 35px;
-        grid-template-columns: repeat(4, 1fr);
-        column-gap: 64px;
-        padding: 31px 44.5px 31px 44.5px;
-        box-sizing: border-box;
-    }
+  .group--checkbox {
+    min-width: 960px;
+    display: grid;
+    row-gap: 35px;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 64px;
+    padding: 31px 44.5px 31px 44.5px;
+    box-sizing: border-box;
+  }
 }

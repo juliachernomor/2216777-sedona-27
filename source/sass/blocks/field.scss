@@ -1,58 +1,57 @@
 .field {
-    width: 100%;
-    min-height: 100%;
-    display: grid;
-    margin-bottom: 16px;
-    font-family:"PTSans", "Arial", sans-serif;
+  width: 100%;
+  min-height: 100%;
+  display: grid;
+  margin-bottom: 16px;
+  font-family: "PTSans", "Arial", sans-serif;
+}
+
+.field__label {
+  grid-row: 1/2;
+  margin: 0 0 0 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.field__input {
+  grid-row: 2/3;
+  max-height: 58px;
+  padding: 16px 58px 16px 16px;
+  margin: 0;
+  background-color: #f2f2f2;
+  color: #000000;
+  font-family: "PTSans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #e5e5e5;
   }
 
-  .field__label {
-    grid-row: 1/2;
-    margin: 0 0 0 16px;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    text-transform: uppercase;
-    color: #333333;
+  &:active,
+  &:focus {
+    background-color: #ffffff;
+    outline: 4px solid #e5e5e5;
   }
+}
 
+@media (min-width: $tablet-width) {
   .field__input {
-    grid-row: 2/3;
-    max-height: 58px;
-    padding: 16px 58px  16px 16px;
-    margin: 0;
-    background-color: #f2f2f2;
-    color: #000000;
-    font-family:"PTSans", "Arial", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 26px;
-    border: none;
-    cursor: pointer;
-
-    &:hover {
-      background-color: #e5e5e5;
-    }
-
-    &:active,
-    &:focus {
-      background-color: #ffffff;
-      outline: 4px solid #e5e5e5;
-    }
+    min-width: 280px;
+    box-sizing: border-box;
   }
+}
 
-  @media (min-width: $tablet-width) {
-    .field__input {
-      min-width: 280px;
-      box-sizing: border-box;
-    }
-  }
-
-  .field__input::placeholder {
-    color: rgba(0,0,0, 0.3);
-    font-family:"PTSans", "Arial", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 26px;
-  }
+.field__input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+  font-family: "PTSans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}

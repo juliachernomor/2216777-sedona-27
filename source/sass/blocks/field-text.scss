@@ -1,88 +1,87 @@
 .field-text {
-    min-width: 320px;
-    padding: 0 20px;
-    width: 100%;
-    border: none;
-    box-sizing: border-box;
+  min-width: 320px;
+  padding: 0 20px;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
 }
 
 .field-text__title {
-    min-width: 280px;
-    margin: 0 auto 20px auto;
-    font-family: "PTSans", "Arial", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 26px;
-    color: #000000;
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: 0;
+  min-width: 280px;
+  margin: 0 auto 20px auto;
+  font-family: "PTSans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 0;
 }
 
 @media (min-width: $tablet-width) {
-    .field-text__title {
-        font-size: 21px;
-        line-height: 26px;
-        font-weight: 700;
-        margin-bottom: 28px;
-    }
+  .field-text__title {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-bottom: 28px;
+  }
 }
 
-
 @media (min-width: $desktop-width) {
-    .field-text__title {
-        width: 400px;
-        margin: 0 auto 28px auto;
-        padding-top: 0 280px;
-    }
+  .field-text__title {
+    width: 400px;
+    margin: 0 auto 28px auto;
+    padding-top: 0 280px;
+  }
 }
 
 .field-text__input {
-    display: block;
-    width: 100%;
-    min-width: 280px;
-    min-height: 150px;
-    height: 100%;
-    padding: 16px 16px 16px 16px;
-    margin: 0;
-    box-sizing: border-box;
-    font-family:"PTSans", "Arial", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 26px;
-    color: rgba(0, 0, 0, 0.3);
-    background-color: #f2f2f2;
-    border: none;
-    cursor: pointer;
+  display: block;
+  width: 100%;
+  min-width: 280px;
+  min-height: 150px;
+  height: 100%;
+  padding: 16px 16px 16px 16px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PTSans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
 
-    &:hover {
-        background-color: #e5e5e5;
-      }
-
-    &:active,
-    &:focus {
-        background-color: #ffffff;
-        outline: 4px solid #e5e5e5;
-      }
+  &:hover {
+    background-color: #e5e5e5;
   }
 
-  @media (min-width: $tablet-width) {
-    .field-text__input {
-        min-height: 160px;
-    }
+  &:active,
+  &:focus {
+    background-color: #ffffff;
+    outline: 4px solid #e5e5e5;
+  }
 }
 
-  @media (min-width: $desktop-width) {
-    .field-text__input {
-        width: 768px;
-        margin: 0 96px 2px 96px;
-    }
+@media (min-width: $tablet-width) {
+  .field-text__input {
+    min-height: 160px;
+  }
 }
 
-  @media (min-width: $tablet-width) {
-    .field-text {
-        min-width: 280px;
-        padding: 0px;
-        margin: 0 0 48px 0;
-    }
+@media (min-width: $desktop-width) {
+  .field-text__input {
+    width: 768px;
+    margin: 0 96px 2px 96px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .field-text {
+    min-width: 280px;
+    padding: 0;
+    margin: 0 0 48px 0;
+  }
 }

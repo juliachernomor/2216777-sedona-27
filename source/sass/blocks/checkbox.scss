@@ -1,8 +1,7 @@
 .checkbox {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    margin: 10px 0 36px 0;
+  position: relative;
+  padding: 0;
+  margin: 10px 0 36px 0;
 }
 
 @media (min-width: $tablet-width) {
@@ -20,27 +19,27 @@
 }
 
 .checkbox__control-label {
-    display: block;
-    margin: 0 0 0 62px;
-    font-family:"PTSans", "Arial", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 26px;
-  }
+  display: block;
+  margin: 0 0 0 62px;
+  font-family: "PTSans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
 
-  .checkbox__control-mark {
-    position: absolute;
-    top: -10px;
-    left: 0;
-    width: 46px;
-    height: 46px;
-    background-color: #f2f2f2;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+.checkbox__control-mark {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 46px;
+  height: 46px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-  .checkbox__input[type="checkbox"]:checked + .checkbox__control-mark::before {
+.checkbox__input[type="checkbox"]:checked + .checkbox__control-mark::before {
   position: absolute;
   content: "";
   top: 30%;

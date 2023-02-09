@@ -1,19 +1,19 @@
 .map {
-    min-height: 350px;
-    min-width: 320px;
-    width: 100%;
+  min-height: 350px;
+  min-width: 320px;
+  width: 100%;
 }
 
 .map__static {
-    display: block;
-    min-width: 320px;
-    object-fit: cover;
-    width: 100%;
+  display: block;
+  min-width: 320px;
+  object-fit: cover;
+  width: 100%;
 }
 
 @media (min-width: $desktop-width) {
-    .map__static {
-        width: 1200px;
-        height: 350px;
-    }
+  .map__static {
+    width: 1200px;
+    height: 350px;
+  }
 }

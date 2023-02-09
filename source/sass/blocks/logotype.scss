@@ -1,30 +1,29 @@
 .logotype {
-    color: #000000;
+  color: #000000;
 
-    &:hover {
-        color: #669ec0;
-    }
+  &:hover {
+    color: #669ec0;
+  }
 
-    &:active {
-        color:  #5496bd;
-    }
+  &:active {
+    color: #5496bd;
+  }
 }
 
 .logotype-text {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 @media (min-width: $tablet-width) {
-    .logotype {
-        margin-top: 17px;
-    }
+  .logotype {
+    margin-top: 17px;
+  }
 }
 
 @media (min-width: $tablet-width) {
-    .logotype-text {
-        padding: 0;
-        min-width: 166px;
-
-    }
+  .logotype-text {
+    padding: 0;
+    min-width: 166px;
+  }
 }

@@ -1,41 +1,41 @@
 .card {
-    min-width: 320px;
+  min-width: 320px;
 }
 
 .card__list {
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media (min-width: $tablet-width) {
+  .card {
+    min-width: 648px;
+    padding: 0 60px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .card {
+    width: 1200px;
     padding: 0;
-    list-style-type: none;
+  }
 }
 
 @media (min-width: $tablet-width) {
-    .card {
-        min-width: 648px;
-        padding: 0 60px;
-    }
+  .card__list {
+    min-width: 648px;
+    margin: 0 auto 58px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (min-width: $desktop-width) {
-    .card {
-        width: 1200px;
-        padding: 0;
-    }
-}
-
-@media (min-width: $tablet-width) {
-    .card__list {
-        min-width: 648px;
-        margin: 0 auto 58px auto;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (min-width: $desktop-width) {
-    .card__list {
-        min-width: 1200px;
-        margin: 0 0 60px 0;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .card__list {
+    min-width: 1200px;
+    margin: 0 0 60px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

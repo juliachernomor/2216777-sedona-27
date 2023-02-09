@@ -1,42 +1,42 @@
 .like__count {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 700;
-    margin-left: 14px;
-    color: #000000;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  margin-left: 14px;
+  color: #000000;
 }
 
 .like__emoji {
-    opacity: 0.3;
-    color: #000000;
+  opacity: 0.3;
+  color: #000000;
 }
 
 @media (min-width: $tablet-width) {
-    .like__count {
-        display: block;
-        margin: 0 20px 0 0;
-        width: 32px;
-        word-break: break-word;
-    }
+  .like__count {
+    display: block;
+    margin: 0 20px 0 0;
+    width: 32px;
+    word-break: break-word;
+  }
 
-    .like__emoji {
-        margin-right: 9px;
-        opacity: 0.3;
-        color: #000000;
-    }
+  .like__emoji {
+    margin-right: 9px;
+    opacity: 0.3;
+    color: #000000;
+  }
 }
 
 @media (min-width: $desktop-width) {
-    .like__icon {
-        color: #ffffff;
-    }
+  .like__icon {
+    color: #ffffff;
+  }
 
-    .like__count {
-        color: #ffffff;
-    }
+  .like__count {
+    color: #ffffff;
+  }
 
-    .like__emoji {
-        opacity: 1;
-        color: #ffffff;
-    }
+  .like__emoji {
+    opacity: 1;
+    color: #ffffff;
+  }
 }

@@ -1,15 +1,15 @@
 .catalog__video {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 @media (min-width: $tablet-width) {
-    .catalog__video {
-        margin-bottom: 40px;
-    }
+  .catalog__video {
+    margin-bottom: 40px;
+  }
 }
 
 @media (min-width: $desktop-width) {
-    .catalog__video {
-        margin-bottom: 83.5px;
-    }
+  .catalog__video {
+    margin-bottom: 83.5px;
+  }
 }

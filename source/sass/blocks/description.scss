@@ -1,205 +1,203 @@
 .description {
-    position: relative;
-    min-width: 320px;
+  position: relative;
+  min-width: 320px;
 
-    &::after {
-        position: absolute;
-        content:"";
-        background-image: url(../img/svg/stack.svg#description-corner);
-        background-repeat: no-repeat;
-        background-size: 768px 37px;
-        background-position: center;
-        top: 99%;
-        left: 0;
-        right: 0;
-        min-height:37px;
-        z-index: 6666;
-    }
+  &::after {
+    position: absolute;
+    content: "";
+    background-image: url("../img/svg/stack.svg#description-corner");
+    background-repeat: no-repeat;
+    background-size: 768px 37px;
+    background-position: center;
+    top: 99%;
+    left: 0;
+    right: 0;
+    min-height: 37px;
+    z-index: 6666;
+  }
 }
 
 @media (min-width: $tablet-width) {
-    .description {
-        min-width: 768px;
+  .description {
+    min-width: 768px;
 
-        &::after {
-            display: none;
-        }
-
+    &::after {
+      display: none;
     }
+  }
 }
 
 .description__text {
-    padding: 33px 18px 8px 18px;
-    min-width: 284px;
-    margin: 0 auto;
-    font-family:"PTSans", "Arial", serif;
-    text-transform: uppercase;
-    text-align: center;
+  padding: 33px 18px 8px 18px;
+  min-width: 284px;
+  margin: 0 auto;
+  font-family: "PTSans", "Arial", serif;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 @media (min-width: $tablet-width) {
-    .description__text {
-        padding: 47.5px 124px 0 124px;
-        min-width: 520px;
-        margin: 0 auto;
-    }
+  .description__text {
+    padding: 47.5px 124px 0 124px;
+    min-width: 520px;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: $desktop-width) {
-    .description__text {
-        padding-top: 59px;
-        margin: 0 auto;
-        width: 484px;
-    }
+  .description__text {
+    padding-top: 59px;
+    margin: 0 auto;
+    width: 484px;
+  }
 }
 
 .description__title {
-    display: block;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 27px;
-    color:#000000;
-    margin-bottom: 35px;
+  display: block;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 35px;
 }
 
-
 @media (min-width: $tablet-width) {
-    .description__title {
-        font-size: 21px;
-        line-height: 27px;
-        margin-bottom: 30px;
-    }
+  .description__title {
+    font-size: 21px;
+    line-height: 27px;
+    margin-bottom: 30px;
+  }
 }
 
 @media (min-width: $desktop-width) {
-    .description__title {
-        margin-bottom: 28px;
-    }
+  .description__title {
+    margin-bottom: 28px;
+  }
 }
 
 .description__definition {
-    display: block;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 21px;
-    color:#333333;
-    margin-bottom: 9px;
+  display: block;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  margin-bottom: 9px;
 }
 
 @media (min-width: $tablet-width) {
-    .description__definition {
-        margin-bottom: 54px;
-    }
+  .description__definition {
+    margin-bottom: 54px;
+  }
 }
 
 @media (min-width: $desktop-width) {
-    .description__definition {
-        margin-bottom: 44.5px;
-    }
+  .description__definition {
+    margin-bottom: 44.5px;
+  }
 }
 
 .description--catalog {
-    &::after {
-        display: none;
-    }
+  &::after {
+    display: none;
+  }
 }
 
 .description__text--catalog {
-    padding: 37px 20px 27px 20px;
-    min-width: 280px;
-    font-size: 12px;
+  padding: 37px 20px 27px 20px;
+  min-width: 280px;
+  font-size: 12px;
 }
 
 .description__title--catalog {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 @media (min-width: $tablet-width) {
-    .description__text--catalog {
-        padding: 65px 155px 46px 155px;
-        min-width: 458px;
-    }
+  .description__text--catalog {
+    padding: 65px 155px 46px 155px;
+    min-width: 458px;
+  }
 
-    .description__title--catalog {
-        font-size: 30px;
-        margin-bottom: 31px;
-    }
+  .description__title--catalog {
+    font-size: 30px;
+    margin-bottom: 31px;
+  }
 
-    .description__definition--catalog {
-        margin: 0;
-        font-size: 14px;
-        line-height: 24px;
-        margin-bottom: 30px;
-    }
+  .description__definition--catalog {
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
 }
 
 @media (min-width: $desktop-width) {
-    .description__text--catalog {
-        padding: 99px 371px 43px 358px;
-        min-width: 458px;
-    }
+  .description__text--catalog {
+    padding: 99px 371px 43px 358px;
+    min-width: 458px;
+  }
 
-    .description__title--catalog {
-        margin-bottom: 27px;
-    }
+  .description__title--catalog {
+    margin-bottom: 27px;
+  }
 
-    .description__definition--catalog {
-        margin: 0;
-        font-size: 14px;
-        line-height: 24px;
-        margin-bottom: 43px;
-    }
+  .description__definition--catalog {
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 43px;
+  }
 }
 
 .description--form {
-    &::after {
-        display: none;
-    }
+  &::after {
+    display: none;
+  }
 }
 
 .description__text--form {
-    padding: 36px 20px 18px 20px;
-    min-width: 280px;
+  padding: 36px 20px 18px 20px;
+  min-width: 280px;
 }
 
 .description__title--form {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 @media (min-width: $tablet-width) {
-    .description__text--form {
-        padding: 64px 166.5px 102px 166.5px;
-        min-width: 435px;
-    }
+  .description__text--form {
+    padding: 64px 166.5px 102px 166.5px;
+    min-width: 435px;
+  }
 
-    .description__title--form {
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
+  .description__title--form {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
 
-    .description__definition--form {
-        font-size: 14px;
-        line-height: 24px;
-        margin: 0;
-    }
+  .description__definition--form {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+  }
 }
 
 @media (min-width: $desktop-width) {
-    .description__text--form {
-        padding: 114px 384px 67px 362px;
-        min-width: 434px;
-    }
+  .description__text--form {
+    padding: 114px 384px 67px 362px;
+    min-width: 434px;
+  }
 
-    .description__title--form {
-        font-size: 30px;
-        margin-bottom: 28px;
-    }
+  .description__title--form {
+    font-size: 30px;
+    margin-bottom: 28px;
+  }
 
-    .description__definition--form {
-        font-size: 14px;
-        line-height: 24px;
-        margin: 0;
-    }
+  .description__definition--form {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+  }
 }

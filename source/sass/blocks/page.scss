@@ -1,67 +1,67 @@
 .page {
-min-width: 320px;
-width: 100%;
-padding: 0;
-margin: 0;
-overflow-x: hidden;
+  min-width: 320px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 .page__body {
-position: relative;
-min-width: 320px;
-display: flex;
-flex-direction: column;
-padding: 0;
-margin: 0;
-font-family: "PTSans", "Arial", sans-serif;
-overflow-x: hidden;
+  position: relative;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  font-family: "PTSans", "Arial", sans-serif;
+  overflow-x: hidden;
 }
 
 @media (min-width: $desktop-width) {
-    .page__body {
-        min-width: 1280px;
-        background-color: #e7e5e5;
-        display: block;
-        margin: 0 auto;
-    }
+  .page__body {
+    min-width: 1280px;
+    background-color: #e7e5e5;
+    display: block;
+    margin: 0 auto;
+  }
 
-    .page__wrapper {
-        width: 1200px;
-        margin: 0 auto;
-        background-color: #ffffff;
-    }
+  .page__wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
 }
 
 .page__container {
-    min-width: 320px;
-    width: 100%;
-    padding: 0;
-    margin: 0 auto;
+  min-width: 320px;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .page__catalog {
-    min-width: 320px;
-    width: 100%;
-    padding: 0;
-    margin: 0 auto;
+  min-width: 320px;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .page__form {
-    min-width: 320px;
-    width: 100%;
-    padding: 0;
-    margin: 0 auto;
+  min-width: 320px;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
 }
 
 @media (min-width: $desktop-width) {
-    .page__form {
-        width: 1200px;
-        margin: 0;
-    }
+  .page__form {
+    width: 1200px;
+    margin: 0;
+  }
 }
 
 @media (max-width: $mobile-width-only) {
-    br {
-        display: none;
-    }
+  br {
+    display: none;
+  }
 }
