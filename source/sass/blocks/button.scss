@@ -19,12 +19,12 @@
     }
 
     &:active {
-        background-color:  #5496bd;
+        background-color: #5496bd;
         color: rgba(255, 255, 255, 0.3)
     }
 
     &:default {
-        background-color:  #e5e5e5;
+        background-color: #e5e5e5;
     }
 }
 
@@ -46,27 +46,33 @@
 }
 
 .button--all {
-    width: 100%;
     border: none;
     font-size: 21px;
     line-height: 26px;
     text-transform: uppercase;
+    min-height: 58px;
+    width: 182px;
+    padding: 16px 49px;
+    box-sizing: border-box;
 }
 
 @media (min-width: $tablet-width) {
     .button--all {
         margin: 0;
         margin-right: 132px;
-        padding: 16px 60px;
-        min-width: 300px;
+        width: 182px;
+        padding: 16px 49px;
+        min-width: 324px;
+        flex-grow: 0;
     }
 }
 
 @media (min-width: $desktop-width) {
     .button--all {
-        margin: 0;
         margin-right: 156px;
+        width: 182px;
         padding: 16px 101px;
-        width: 384px;
+        min-width: 384px;
+        box-sizing: border-box;
     }
 }

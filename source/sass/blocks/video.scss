@@ -25,7 +25,6 @@
     position: relative;
 }
 
-    
 @media (min-width: $tablet-width) {
     .video__wrapper {
         width: 648px;
@@ -74,9 +73,9 @@
     display: block;
     width: 280px;
     height: 177px;
-    z-index: 0;  
+    z-index: 0;
 }
-    
+
 @media (min-width: $tablet-width) {
     .video__container {
         width: 648px;

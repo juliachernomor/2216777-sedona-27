@@ -31,6 +31,7 @@
     height: 56px;
     border: none;
     z-index: 455000;
+    background-color: #fff;
     background-image: url(../img/svg/stack.svg#menu-close);
     background-repeat: no-repeat;
     background-size: 22px 22px;
@@ -38,7 +39,7 @@
     background-color: #81b3d2;
     z-index: 5555555;
     cursor: pointer;
-    
+
     &:hover {
       opacity: 60%;
     }
@@ -47,8 +48,6 @@
       opacity: 30%;
     }
   }
-  
-
 
   .nav--closed .nav__toggle {
     background-image: url(../img/svg/stack.svg#toggle);
@@ -76,7 +75,7 @@
   z-index: 450000;
   background-color: #ffffff;
 }
-  
+
 @media (min-width: $tablet-width) {
   .nav__wrapper {
     position: static;
@@ -86,7 +85,7 @@
 @media (max-width: $mobile-width-only) {
   .nav--closed .site-list__item {
     display: none;
-  
+
     &--active {
       display: block;
     }
@@ -95,13 +94,13 @@
   .nav--nojs .nav__toggle {
     display: none;
   }
-  
+
   .nav--nojs .nav__wrapper {
     position: static;
     display: block;
     margin: 0 auto;
   }
-  
+
   .nav--nojs .site-list__item {
     display: block;
     margin: 0 auto;

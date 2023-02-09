@@ -9,9 +9,8 @@
 .like__emoji {
     opacity: 0.3;
     color: #000000;
- } 
+}
 
- 
 @media (min-width: $tablet-width) {
     .like__count {
         display: block;
@@ -24,15 +23,14 @@
         margin-right: 9px;
         opacity: 0.3;
         color: #000000;
-     }
+    }
 }
-
 
 @media (min-width: $desktop-width) {
     .like__icon {
         color: #ffffff;
     }
-    
+
     .like__count {
         color: #ffffff;
     }

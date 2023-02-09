@@ -58,14 +58,14 @@
     &:hover {
         background-color: #e5e5e5;
       }
-  
+
     &:active,
     &:focus {
         background-color: #ffffff;
         outline: 4px solid #e5e5e5;
       }
   }
-  
+
   @media (min-width: $tablet-width) {
     .field-text__input {
         min-height: 160px;
@@ -86,4 +86,3 @@
         margin: 0 0 48px 0;
     }
 }
-
