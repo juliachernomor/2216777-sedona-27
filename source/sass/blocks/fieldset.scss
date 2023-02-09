@@ -31,6 +31,27 @@
     padding-top: 20px;
 }
 
+.fieldset__title--contacts {
+    padding-top: 10px;
+}
+
+.fieldset__title--radio {
+    padding-top: 4px;
+}
+
+.fieldset__title--checkbox {
+    padding-top: 0px;
+}
+
+.fieldset--radio {
+    padding-bottom: 23px;
+}
+
+.fieldset--checkbox {
+    padding-bottom: 22px;
+}
+
+
 
 @media (min-width: $tablet-width) {
     .fieldset {
@@ -45,13 +66,14 @@
         min-width: 280px;
         margin: 0;
         padding: 0;
-        margin-bottom: 86px;
+        margin-bottom: 45px;
     }
 }
 
-@media (min-width: $tablet-width) {
+@media (min-width: $desktop-width) {
     .fieldset--personalization {
-        margin-bottom: 71px;
+        padding-bottom: 5px;
+        
     }
 }
 
@@ -72,13 +94,7 @@
         min-width: 648px;
         margin: 0;
         padding: 0;
-        margin-bottom: 25px;
-    }
-}
-
-@media (min-width: $desktop-width) {
-    .fieldset--radio {
-        margin-bottom: 56px;
+        margin-bottom: 24px;
     }
 }
 
@@ -89,13 +105,7 @@
         min-width: 648px;
         margin: 0 auto;
         padding: 0;
-        margin-bottom: 6px;
-    }
-}
-
-@media (min-width: $desktop-width) {
-    .fieldset--checkbox {
-        margin-bottom: 56px;
+        margin-bottom: 19px;
     }
 }
 
@@ -114,6 +124,7 @@
 
     .fieldset__title--radio {
         min-width: 402px;
+        font-size: 21px;
     }
 
     .fieldset__title--checkbox {
@@ -123,6 +134,19 @@
 }
 
 @media (min-width: $desktop-width) {
+    .fieldset--radio {
+        margin-bottom: 63px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .fieldset--checkbox {
+        margin-bottom: 59px;
+    }
+}
+
+
+@media (min-width: $desktop-width) {
     .fieldset__title--contacts {
         text-align: left;
     }
@@ -130,10 +154,12 @@
     .fieldset__title--radio {
         width: 400px;
         padding: 0 280px;
+        margin-bottom: 43px;
     }
 
     .fieldset__title--checkbox {
         width: 306px;
         padding: 0 327px;
+        margin-bottom: 45px;
     }
 }

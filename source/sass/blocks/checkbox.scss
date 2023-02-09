@@ -5,6 +5,11 @@
     margin: 10px 0 36px 0;
 }
 
+@media (min-width: $tablet-width) {
+  .checkbox {
+    margin-bottom: 30px;
+  }
+}
 
 @media (min-width: $desktop-width) {
   .checkbox {

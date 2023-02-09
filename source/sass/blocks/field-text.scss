@@ -16,8 +16,18 @@
     color: #000000;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 25px;
+    padding-top: 0;
 }
+
+@media (min-width: $tablet-width) {
+    .field-text__title {
+        font-size: 21px;
+        line-height: 26px;
+        font-weight: 700;
+        margin-bottom: 28px;
+    }
+}
+
 
 @media (min-width: $desktop-width) {
     .field-text__title {
@@ -56,10 +66,16 @@
       }
   }
   
+  @media (min-width: $tablet-width) {
+    .field-text__input {
+        min-height: 160px;
+    }
+}
+
   @media (min-width: $desktop-width) {
     .field-text__input {
         width: 768px;
-        margin: 0 96px 48px 96px;
+        margin: 0 96px 2px 96px;
     }
 }
 
