@@ -5,7 +5,7 @@
   min-height: 158px;
   margin: 0 auto;
   padding: 0;
-  background-image: url("../../img/backgroundcatalog-mobile.jpg");
+  background-image: url("../img/backgroundcatalog-mobile.jpg");
   background-size: 902px 214px;
   background-repeat: no-repeat;
   background-position: 50% 100%;
@@ -24,7 +24,7 @@
   }
 
   @media (min-resolution: 2dppx) {
-    background-image: url("../../img/backgroundcatalog-mobile@2x.jpg");
+    background-image: url("../img/backgroundcatalog-mobile@2x.jpg");
   }
 }
 
@@ -38,7 +38,7 @@
   .banner2 {
     min-width: 768px;
     min-height: 290px;
-    background-image: url("../../img/backgroundcatalog-tablet.jpg");
+    background-image: url("../img/backgroundcatalog-tablet.jpg");
     background-size: 1200px 518px;
 
     &::after {
@@ -46,7 +46,7 @@
     }
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../../img/backgroundcatalog-tablet@2x.jpg");
+      background-image: url("../img/backgroundcatalog-tablet@2x.jpg");
     }
   }
 }

@@ -3,7 +3,7 @@
   min-width: 320px;
   min-height: 388px;
   margin: 0 auto;
-  background-image: url("../../img/backgroundindex-mobile.jpg");
+  background-image: url("../img/backgroundindex-mobile.jpg");
   background-size: 901px 388px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -22,7 +22,7 @@
   }
 
   @media (min-resolution: 2dppx) {
-    background-image: url("../../img/backgroundindex-mobile@2x.jpg");
+    background-image: url("../img/backgroundindex-mobile@2x.jpg");
   }
 }
 
@@ -30,7 +30,7 @@
   .banner {
     min-width: 768px;
     min-height: 517.5px;
-    background-image: url("../../img/backgroundindex-tabdesk.jpg");
+    background-image: url("../img/backgroundindex-tabdesk.jpg");
     background-size: 1200px 517.5px;
 
     &::after {
@@ -47,7 +47,7 @@
     }
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../../img/backgroundindex-tabdesk@2x.jpg");
+      background-image: url("../img/backgroundindex-tabdesk@2x.jpg");
     }
   }
 }
